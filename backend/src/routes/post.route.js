@@ -8,4 +8,4 @@ router.route('/getPosts').get(getPosts);
 router.route('/update/:id').patch(updatePost);
 router.route('/delete/:id').delete(deletePost);
 
-export default router;
+export default router; 
